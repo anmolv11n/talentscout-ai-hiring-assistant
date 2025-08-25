@@ -660,7 +660,7 @@ This will help me generate relevant technical questions for you.""")
                 
             st.rerun()
 
-# Summary section (continued)
+# Summary section
 elif st.session_state.step == "summary":
     if not st.session_state.summary:
         with st.spinner("📊 Generating assessment report..."):
